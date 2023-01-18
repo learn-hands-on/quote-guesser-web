@@ -55,11 +55,19 @@ body{
     justify-content: center;
 }
 
-.search{
+.submit{
     margin: 0px;
     width: 50px;
     background-color: #95baf7;
     padding: 15px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: large;
+    color: rgb(255, 38, 0);
+    font-weight: bold;
 }
