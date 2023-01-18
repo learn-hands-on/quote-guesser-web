@@ -36,7 +36,7 @@ body{
 }
 
 .input>input{
-    width: 300px;
+    width: 600px;
     padding-top: 15px;
     padding-bottom:15px;
     padding-left: 20px;
@@ -51,10 +51,15 @@ body{
 
 .input{
     display: flex;
+    gap: 7px;
     justify-content: center;
 }
 
 .search{
+    margin: 0px;
     width: 50px;
-    
+    background-color: #95baf7;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
