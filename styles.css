@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #95baf7;
     height: 100vh;
     display: flex;
@@ -17,44 +17,23 @@ body{
 main {
     background-color: #e4eaef;
     border-radius: 15px;
+    padding: 30px;
     height: 80vh;
     width: 90vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.logo{
-    width: 70px;
-    padding-left: 30px;
-    padding-top: 30px;
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.content{
-    padding-top: 50px;
-    margin-top: none;
-    margin-left:15px;
-    margin-right:15px;
-    padding-bottom: 300px;
-    background-color: #e4eaef;
-    text-align: center;
-}
-
-.header{
-    text-align: center;
-    font-size: 50px;
-    font-family: Poppins;
-}
-
-.input>input{
-    width: 600px;
-    padding-top: 15px;
-    padding-bottom:15px;
-    padding-left: 20px;
-    padding-right:20px;
-    border:1px solid #dfe1e5;
-    border-radius: 10px;
-    font-size: 15px;
-    text-align: left;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    border:1px solid #dfe1e5;
+.logo {
+    width: 100px;
 }
 
 .input{
@@ -62,6 +41,17 @@ main {
     gap: 7px;
     justify-content: center;
 }
+
+.input > input {
+    width: 600px;
+    padding: 15px;
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
 
 .submit{
     margin: 0px;
