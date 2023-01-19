@@ -23,7 +23,6 @@ main {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .navbar {
@@ -34,6 +33,13 @@ main {
 
 .logo {
     width: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
 }
 
 .input{
@@ -55,7 +61,8 @@ main {
 
 .submit{
     margin: 0px;
-    width: 50px;
+    width: 80px;
+    border: none;
     background-color: #95baf7;
     padding: 15px;
     border-radius: 10px;
